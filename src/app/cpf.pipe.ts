@@ -20,5 +20,5 @@ export class CpfPipe implements PipeTransform {
   cpf(cpf: string): string{
     return cpf.replace(/([0-9]{3})([0-9]{3})([0-9]{3})([0-9]{2})/, '$1.$2.$3-$4')
   }
-
+  //done
 }
